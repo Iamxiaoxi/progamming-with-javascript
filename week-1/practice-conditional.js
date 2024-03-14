@@ -36,4 +36,6 @@ switch (day) {
     case 'Sunday':
         console.log("Do something");
         break;
+    default:
+        console.log("There is no such day");
 }
