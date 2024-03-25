@@ -26,3 +26,21 @@ console.log(apple);// an object
 
 let pear = "pear";
 console.log(pear);// a string literal
+
+"abcd".match(/d/);
+"abcd".match(/a/);
+
+/**
+ * Instead of using Array, Function, and RegExp constructors, 
+ * you should use their array literal, function literal, 
+ * and pattern literal varieties: [], () {}, and /()/.
+ */
+
+new Date();
+new Error();
+new Map();
+new Promise();
+new Set();
+new WeakSet();
+new WeakMap();
+
